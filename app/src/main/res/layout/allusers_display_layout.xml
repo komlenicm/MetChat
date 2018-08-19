@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/allusers_profile_image"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:src="@drawable/default_profile"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/allusers_name"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="user_name"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/statusOnline"
+                    android:layout_width="15dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="invisible"
+                    app:srcCompat="@mipmap/statusonline" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/allusers_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="user_status"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:title="Podesavanje naloga"
+        android:id="@+id/btnSettings"
+        app:showAsAction="never"/>
+
+    <item android:title="Lokacija Univerziteta"
+        android:id="@+id/btnLokacijaUniverziteta"
+        app:showAsAction="never"/>
+
+    <item android:title="Svi korisnici"
+        android:id="@+id/btnAllUsers"
+        app:showAsAction="never"/>
+
+    <item android:title="Odjavljivanje"
+        android:id="@+id/btnLogoutMain"
+        app:showAsAction="never"/>
+
+
+</menu>

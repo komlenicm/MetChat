@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMet"
+    tools:context=".SettingsActivity">
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/roundedImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/default_profile"
+        app:riv_corner_radius="25dp"
+        app:riv_mutate_background="true"
+
+        />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roundedImageView"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15dp"
+        android:text="Name"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvProfileStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="Profile status"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnChangeImage"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:background="@android:color/background_light"
+        android:text="Promeni profilnu sliku"
+        android:textAllCaps="false"
+        android:textColor="@color/colorMet"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnChangeStatus"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@android:color/background_light"
+        android:text="Promeni status"
+        android:textAllCaps="false"
+        android:textColor="@color/colorMet"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

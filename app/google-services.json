@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "357972503004",
+    "firebase_url": "https://metchat-f48cb.firebaseio.com",
+    "project_id": "metchat-f48cb",
+    "storage_bucket": "metchat-f48cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357972503004:android:94cca40f21ed0e65",
+        "android_client_info": {
+          "package_name": "com.metropolitan.milos.metchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357972503004-j7db5aoc5keiq9e6g71vaukg4bl4nu7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.metropolitan.milos.metchat",
+            "certificate_hash": "cf7f067d4165c033103ff9e0e439bd751833c858"
+          }
+        },
+        {
+          "client_id": "357972503004-qumri7h01c9466af95v5f4l8snn2p0k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFik9meMBNlqhYOpFwoBPwtr0F_WoaASA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357972503004-qumri7h01c9466af95v5f4l8snn2p0k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

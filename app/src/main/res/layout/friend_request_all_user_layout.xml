@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/requestProfileImage"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/default_profile" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvRequestProfileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="Display Name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRequestProfileStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="Display Status"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAcceptFriendRequest"
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:color/holo_green_light"
+                    android:text="PRIHVATI"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnCancelFriendRequest"
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#de2525"
+                    android:text="IZBRIŠI"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

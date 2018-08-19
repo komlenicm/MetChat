@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a60532</color>
+    <color name="colorPrimaryDark">#9b0502</color>
+    <color name="colorAccent">#dc0c46</color>
+    <color name="colorProfileBackground">#484a4d</color>
+    <color name="colorMet">#a60532</color>
+    <color name="colorMessageReceiverTest">#cacaca</color>
+    <color name="colorMessageReceiver2">#d2bec4</color>
+    <color name="colorTestBoja">#ff00ff</color>
+</resources>
